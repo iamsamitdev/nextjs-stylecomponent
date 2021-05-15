@@ -1,14 +1,14 @@
 import Head from 'next/head'
 import MainLayout from '../src/components/layouts/MainLayout'
 
-export default function Home() {
+export default function Contact() {
   return (
     <MainLayout>
       <Head>
-        <title>Home</title>
+        <title>Contact</title>
       </Head>
       
-      <h1>Home pages</h1>
+      <h1>Contact pages</h1>
       
     </MainLayout>
   )
